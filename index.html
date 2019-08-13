@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+    body {
+        min-height: 150vh;
+    }
+</style>
+<body>
+    <div class="container mt-5">
+        <h1>Toodo</h1>
+
+        <div class="row">
+            <div class="col-sm">
+                <ul id="task-list" class="list-group">
+                </ul>
+            </div>
+            <div class="col-sm">
+                <div class="input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Введите задачу</span>
+                    </div>
+                    <input id="task-input" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <button id="btn" type="button" class="btn btn-primary">Add Task</button>
+            </div>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
